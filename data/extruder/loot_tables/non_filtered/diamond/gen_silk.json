@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 4,
+          "type": "item",
+          "name": "minecraft:stone"
+        },
+        {
+          "weight": 2,
+          "type": "item",
+          "name": "minecraft:granite"
+        },
+        {
+          "weight": 2,
+          "type": "item",
+          "name": "minecraft:diorite"
+        },
+        {
+          "weight": 2,
+          "type": "item",
+          "name": "minecraft:andesite"
+        },
+        {
+          "weight": 4,
+          "type": "item",
+          "name": "minecraft:cobblestone"
+        },
+        {
+          "weight": 1,
+          "type": "item",
+          "name": "minecraft:basalt"
+        },
+        {
+          "weight": 1,
+          "type": "item",
+          "name": "minecraft:blackstone"
+        }
+      ]
+    }
+  ]
+}
