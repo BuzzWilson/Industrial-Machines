@@ -1,0 +1,6 @@
+{
+ "values": [
+  "extruder:int"
+  "growth_pots:growthpots"
+ ]
+}
