@@ -4,27 +4,52 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 4,
+          "weight": 8,
           "type": "item",
           "name": "minecraft:stone"
         },
         {
-          "weight": 2,
+          "weight": 3,
+          "type": "item",
+          "name": "minecraft:deepslate"
+        },
+        {
+          "weight": 7,
           "type": "item",
           "name": "minecraft:granite"
         },
         {
-          "weight": 2,
+          "weight": 7,
           "type": "item",
           "name": "minecraft:diorite"
         },
         {
-          "weight": 2,
+          "weight": 7,
           "type": "item",
           "name": "minecraft:andesite"
         },
         {
+          "weight": 3,
+          "type": "item",
+          "name": "minecraft:cobbled_deepslate"
+        },
+        {
+          "weight": 2,
+          "type": "item",
+          "name": "minecraft:tuff"
+        },
+        {
+          "weight": 2,
+          "type": "item",
+          "name": "minecraft:calcite"
+        },
+        {
           "weight": 4,
+          "type": "item",
+          "name": "minecraft:dripstone_block"
+        },
+        {
+          "weight": 8,
           "type": "item",
           "name": "minecraft:cobblestone"
         },

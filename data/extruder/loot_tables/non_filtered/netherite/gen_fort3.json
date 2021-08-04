@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 2,
+          "weight": 7,
           "type": "item",
           "name": "minecraft:granite",
           "functions": [
@@ -19,7 +19,7 @@
           ]
         },
         {
-          "weight": 2,
+          "weight": 7,
           "type": "item",
           "name": "minecraft:diorite",
           "functions": [
@@ -34,7 +34,7 @@
           ]
         },
         {
-          "weight": 2,
+          "weight": 7,
           "type": "item",
           "name": "minecraft:andesite",
           "functions": [
@@ -49,7 +49,67 @@
           ]
         },
         {
-          "weight": 8,
+          "weight": 6,
+          "type": "item",
+          "name": "minecraft:cobbled_deepslate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "weight": 2,
+          "type": "item",
+          "name": "minecraft:tuff",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "weight": 2,
+          "type": "item",
+          "name": "minecraft:calcite",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "weight": 4,
+          "type": "item",
+          "name": "minecraft:dripstone_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "weight": 16,
           "type": "item",
           "name": "minecraft:cobblestone",
           "functions": [

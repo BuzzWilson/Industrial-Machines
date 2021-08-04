@@ -7,6 +7,11 @@
    "minecraft:cobblestone",
    "minecraft:basalt",
    "minecraft:blackstone",
+   "minecraft:tuff",
+   "minecraft:calcite",
+   "minecraft:dripstone_block",
+   "minecraft:deepslate",
+   "minecraft:cobbled_deepslate",
    "minecraft:obsidian"
  ]
 }
