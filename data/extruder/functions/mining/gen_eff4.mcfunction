@@ -1,3 +1,7 @@
+#
+# Description: Checks if the pickaxe does have efficiency, level 4 of it, and checks the structure before running extruder:gen_check
+# Called by: extruder:int via schedule
+#
 # Facing Key
 # Down = 0
 # Up = 1

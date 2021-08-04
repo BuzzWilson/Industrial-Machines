@@ -1,3 +1,7 @@
+#
+# Description: Validates the structure for the extruder via predicates and spawns particles to show its complete.
+# Called by: extruder:int via schedule
+#
 # Facing Key
 # Down = 0
 # Up = 1

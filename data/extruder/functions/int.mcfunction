@@ -1,3 +1,7 @@
+#
+# Description: Sets up the clocks for all of the extruder machines
+# Called by: minecraft:load
+#
 schedule function extruder:validator 1s
 schedule function extruder:mining/gen_eff5 5s
 schedule function extruder:mining/gen_eff4 10s

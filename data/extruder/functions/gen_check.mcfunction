@@ -1,3 +1,8 @@
+#
+# Description: Goes through all the enchants and filters and runs the loot table with some particles
+# Called by: extruder:mining/gen - extruder:mining/gen_eff5
+# Entity @s: glow_item_frame
+#
 # Non-Filtered
   # Diamond
     # Base
