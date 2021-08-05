@@ -1,0 +1,72 @@
+[
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetZ": 1,
+    "offsetY": 0,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:hopper"
+        ],
+        "state": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 1,
+    "offsetZ": 1,
+    "offsetY": 0,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:hopper"
+        ],
+        "state": {
+          "facing": "west"
+        }
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": -1,
+    "offsetZ": 1,
+    "offsetY": 0,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:hopper"
+        ],
+        "state": {
+          "facing": "east"
+        }
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 1,
+    "offsetZ": 1,
+    "offsetY": 1,
+    "predicate": {
+      "fluid": {
+        "fluid": "minecraft:water"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": -1,
+    "offsetZ": 1,
+    "offsetY": 1,
+    "predicate": {
+      "fluid": {
+        "fluid": "minecraft:lava"
+      }
+    }
+  }
+]

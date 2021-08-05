@@ -1,72 +1,15 @@
 [
   {
-    "condition": "location_check",
-    "offsetX": 0,
-    "offsetZ": 1,
-    "offsetY": 0,
-    "predicate": {
-      "block": {
-        "blocks": [
-          "minecraft:hopper"
-        ],
-        "state": {
-          "enabled": true
-        }
+    "condition": "alternative",
+    "terms": [
+      {
+        "condition": "reference",
+        "name": "industrial_machines:extruder/north/structure_main"
+      },
+      {
+        "condition": "reference",
+        "name": "industrial_machines:extruder/north/structure_alt"
       }
-    }
-  },
-  {
-    "condition": "location_check",
-    "offsetX": 1,
-    "offsetZ": 1,
-    "offsetY": 0,
-    "predicate": {
-      "block": {
-        "blocks": [
-          "minecraft:hopper"
-        ],
-        "state": {
-          "facing": "west"
-        }
-      }
-    }
-  },
-  {
-    "condition": "location_check",
-    "offsetX": -1,
-    "offsetZ": 1,
-    "offsetY": 0,
-    "predicate": {
-      "block": {
-        "blocks": [
-          "minecraft:hopper"
-        ],
-        "state": {
-          "facing": "east"
-        }
-      }
-    }
-  },
-  {
-    "condition": "location_check",
-    "offsetX": 1,
-    "offsetZ": 1,
-    "offsetY": 1,
-    "predicate": {
-      "fluid": {
-        "fluid": "minecraft:water"
-      }
-    }
-  },
-  {
-    "condition": "location_check",
-    "offsetX": -1,
-    "offsetZ": 1,
-    "offsetY": 1,
-    "predicate": {
-      "fluid": {
-        "fluid": "minecraft:lava"
-      }
-    }
+    ]
   }
 ]
