@@ -1,6 +1,6 @@
 #
 # Description: Checks if the axe does have efficiency, level 1 of it, and checks the structure before running growth_pots:gen_check
-# Called by: growth_pots:int via schedule
+# Called by: industrial_machines:int via schedule
 #
 # Facing Key
 # Down = 0

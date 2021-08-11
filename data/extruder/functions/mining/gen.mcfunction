@@ -1,6 +1,6 @@
 #
 # Description: Checks if the pickaxe doesn't have efficiency and checks the structure before running extruder:gen_check
-# Called by: extruder:int via schedule
+# Called by: industrial_machines:int via schedule
 #
 # Facing Key
 # Down = 0
