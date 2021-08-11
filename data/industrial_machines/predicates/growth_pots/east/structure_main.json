@@ -1,0 +1,29 @@
+[
+  {
+    "condition": "location_check",
+    "offsetX": -1,
+    "offsetZ": 0,
+    "offsetY": 0,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:hopper"
+        ],
+        "state": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": -1,
+    "offsetZ": 0,
+    "offsetY": 1,
+    "predicate": {
+      "block": {
+        "tag": "growth_pots:pots"
+      }
+    }
+  }
+]
