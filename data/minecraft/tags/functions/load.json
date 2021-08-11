@@ -1,6 +1,5 @@
 {
  "values": [
-  "extruder:int",
-  "growth_pots:growthpots"
+  "industrial_machines:int"
  ]
 }
