@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.75
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:oak_log"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.1
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:flowering_azalea_leaves",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.33
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:azalea_leaves"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

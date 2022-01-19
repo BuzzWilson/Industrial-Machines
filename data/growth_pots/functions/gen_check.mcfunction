@@ -58,3 +58,12 @@
     execute as @s[nbt={Item:{tag:{Enchantments:[{lvl:1s,id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 minecraft:potted_dark_oak_sapling run function growth_pots:plants/trees/dark_oak/gen_fort1
     execute as @s[nbt={Item:{tag:{Enchantments:[{lvl:2s,id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 minecraft:potted_dark_oak_sapling run function growth_pots:plants/trees/dark_oak/gen_fort2
     execute as @s[nbt={Item:{tag:{Enchantments:[{lvl:3s,id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 minecraft:potted_dark_oak_sapling run function growth_pots:plants/trees/dark_oak/gen_fort3
+# Azalea
+  # Base
+    execute as @s[nbt=!{Item:{tag:{Enchantments:[{id:"minecraft:silk_touch"}]}}},nbt=!{Item:{tag:{Enchantments:[{id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 #growth_pots:azalea_pots run function growth_pots:plants/trees/azalea/gen
+  # Silk
+    execute as @s[nbt={Item:{tag:{Enchantments:[{id:"minecraft:silk_touch"}]}}}] at @s if block ^ ^1 ^-1 #growth_pots:azalea_pots run function growth_pots:plants/trees/azalea/gen_silk
+  # Fortune
+    execute as @s[nbt={Item:{tag:{Enchantments:[{lvl:1s,id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 #growth_pots:azalea_pots run function growth_pots:plants/trees/azalea/gen_fort1
+    execute as @s[nbt={Item:{tag:{Enchantments:[{lvl:2s,id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 #growth_pots:azalea_pots run function growth_pots:plants/trees/azalea/gen_fort2
+    execute as @s[nbt={Item:{tag:{Enchantments:[{lvl:3s,id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 #growth_pots:azalea_pots run function growth_pots:plants/trees/azalea/gen_fort3
