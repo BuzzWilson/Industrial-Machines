@@ -86,3 +86,19 @@
     execute as @s[nbt={Item:{tag:{Enchantments:[{lvl:1s,id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 minecraft:potted_red_mushroom run function growth_pots:plants/mushrooms/red_mushroom/gen_fort1
     execute as @s[nbt={Item:{tag:{Enchantments:[{lvl:2s,id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 minecraft:potted_red_mushroom run function growth_pots:plants/mushrooms/red_mushroom/gen_fort2
     execute as @s[nbt={Item:{tag:{Enchantments:[{lvl:3s,id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 minecraft:potted_red_mushroom run function growth_pots:plants/mushrooms/red_mushroom/gen_fort3
+# Crimson Fungus
+  # Base
+    execute as @s[nbt=!{Item:{tag:{Enchantments:[{id:"minecraft:silk_touch"}]}}},nbt=!{Item:{tag:{Enchantments:[{id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 minecraft:potted_crimson_fungus run function growth_pots:plants/mushrooms/crimson_fungus/gen
+  # Silk
+    execute as @s[nbt={Item:{tag:{Enchantments:[{id:"minecraft:silk_touch"}]}}}] at @s if block ^ ^1 ^-1 minecraft:potted_crimson_fungus run function growth_pots:plants/mushrooms/crimson_fungus/gen_silk
+  # Fortune
+    execute as @s[nbt={Item:{tag:{Enchantments:[{lvl:1s,id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 minecraft:potted_crimson_fungus run function growth_pots:plants/mushrooms/crimson_fungus/gen_fort1
+    execute as @s[nbt={Item:{tag:{Enchantments:[{lvl:2s,id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 minecraft:potted_crimson_fungus run function growth_pots:plants/mushrooms/crimson_fungus/gen_fort2
+    execute as @s[nbt={Item:{tag:{Enchantments:[{lvl:3s,id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 minecraft:potted_crimson_fungus run function growth_pots:plants/mushrooms/crimson_fungus/gen_fort3
+# Warped Fungus
+  # Base
+    execute as @s[nbt=!{Item:{tag:{Enchantments:[{id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 minecraft:potted_warped_fungus run function growth_pots:plants/mushrooms/warped_fungus/gen
+  # Fortune
+    execute as @s[nbt={Item:{tag:{Enchantments:[{lvl:1s,id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 minecraft:potted_warped_fungus run function growth_pots:plants/mushrooms/warped_fungus/gen_fort1
+    execute as @s[nbt={Item:{tag:{Enchantments:[{lvl:2s,id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 minecraft:potted_warped_fungus run function growth_pots:plants/mushrooms/warped_fungus/gen_fort2
+    execute as @s[nbt={Item:{tag:{Enchantments:[{lvl:3s,id:"minecraft:fortune"}]}}}] at @s if block ^ ^1 ^-1 minecraft:potted_warped_fungus run function growth_pots:plants/mushrooms/warped_fungus/gen_fort3
