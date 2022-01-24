@@ -31,4 +31,4 @@
   # Netherite
     execute as @e[type=minecraft:glow_item_frame,nbt={Facing:5b,Item:{id:"minecraft:netherite_axe"}},nbt={Item:{tag:{Enchantments:[{lvl:3s,id:"minecraft:efficiency"}]}}}] at @s if predicate industrial_machines:growth_pots/east/structure_main run function growth_pots:gen_check
 
-schedule function growth_pots:mining/gen_eff3 15s
+schedule function growth_pots:farming/gen_eff3 15s
