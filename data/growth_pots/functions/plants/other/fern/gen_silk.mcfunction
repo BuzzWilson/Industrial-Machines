@@ -1,2 +1,2 @@
-loot insert ^ ^ ^-1 loot growth_pots:fern/gen_silk
+loot insert ^ ^ ^-1 loot growth_pots:other/fern/gen_silk
 function industrial_machines:work_effect
