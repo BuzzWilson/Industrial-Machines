@@ -1,0 +1,56 @@
+[
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetZ": 0,
+    "offsetY": 2,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:lightning_rod"
+        ]
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetZ": 0,
+    "offsetY": 1,
+    "predicate": {
+      "block": {
+        "tag": "minecraft:impermeable"
+      }
+    }
+  },
+  {
+    "condition": "inverted",
+    "term": {
+        "condition": "reference",
+        "name": "industrial_machines:senchanter/structure_no_air"
+    }
+  },
+  {
+    "condition": "inverted",
+    "term": {
+        "condition": "reference",
+        "name": "industrial_machines:senchanter/structure_no_liquid"
+    }
+  },
+  {
+    "condition": "reference",
+    "name": "industrial_machines:senchanter/structure_copper"
+  },
+  {
+    "condition": "reference",
+    "name": "industrial_machines:senchanter/structure_enhanced_blocks"
+  },
+  {
+    "condition": "reference",
+    "name": "industrial_machines:senchanter/structure_need_air"
+  },
+  {
+    "condition": "reference",
+    "name": "industrial_machines:senchanter/structure_beacon"
+  }
+]

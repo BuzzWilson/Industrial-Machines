@@ -1,0 +1,46 @@
+[
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetZ": 0,
+    "offsetY": -1,
+    "predicate": {
+      "block": {
+        "tag": "industrial_machines:air"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetZ": 0,
+    "offsetY": -2,
+    "predicate": {
+      "block": {
+        "tag": "industrial_machines:air"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetZ": 0,
+    "offsetY": -3,
+    "predicate": {
+      "block": {
+        "tag": "industrial_machines:air"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetZ": 0,
+    "offsetY": -4,
+    "predicate": {
+      "block": {
+        "tag": "industrial_machines:air"
+      }
+    }
+  }
+]

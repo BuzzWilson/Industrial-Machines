@@ -1,0 +1,46 @@
+[
+  {
+    "condition": "location_check",
+    "offsetX": 3,
+    "offsetZ": -3,
+    "offsetY": -2,
+    "predicate": {
+      "block": {
+        "tag": "senchanter:enhancer_blocks"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 3,
+    "offsetZ": 3,
+    "offsetY": -2,
+    "predicate": {
+      "block": {
+        "tag": "senchanter:enhancer_blocks"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": -3,
+    "offsetZ": 3,
+    "offsetY": -2,
+    "predicate": {
+      "block": {
+        "tag": "senchanter:enhancer_blocks"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": -3,
+    "offsetZ": -3,
+    "offsetY": -2,
+    "predicate": {
+      "block": {
+        "tag": "senchanter:enhancer_blocks"
+      }
+    }
+  }
+]

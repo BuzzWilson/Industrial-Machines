@@ -1,0 +1,211 @@
+[
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetZ": -4,
+    "offsetY": -2,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetZ": -4,
+    "offsetY": -3,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetZ": -4,
+    "offsetY": -4,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 3,
+    "offsetZ": -3,
+    "offsetY": -3,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 3,
+    "offsetZ": -3,
+    "offsetY": -4,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 4,
+    "offsetZ": 0,
+    "offsetY": -2,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 4,
+    "offsetZ": 0,
+    "offsetY": -3,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 4,
+    "offsetZ": 0,
+    "offsetY": -4,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 3,
+    "offsetZ": 3,
+    "offsetY": -3,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetZ": 4,
+    "offsetY": -2,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetZ": 4,
+    "offsetY": -3,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": 0,
+    "offsetZ": 4,
+    "offsetY": -4,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": -3,
+    "offsetZ": 3,
+    "offsetY": -3,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": -3,
+    "offsetZ": 3,
+    "offsetY": -4,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": -4,
+    "offsetZ": 0,
+    "offsetY": -2,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": -4,
+    "offsetZ": 0,
+    "offsetY": -3,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": -4,
+    "offsetZ": 0,
+    "offsetY": -4,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": -3,
+    "offsetZ": -3,
+    "offsetY": -3,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  },
+  {
+    "condition": "location_check",
+    "offsetX": -3,
+    "offsetZ": -3,
+    "offsetY": -4,
+    "predicate": {
+      "fluid": {
+        "tag": "industrial_machines:fluids"
+      }
+    }
+  }
+]
